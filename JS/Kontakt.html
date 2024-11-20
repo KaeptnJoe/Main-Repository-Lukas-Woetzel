@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+
+   <head>
+    <link rel="stylesheet" href="styles.css">
+      <title>Kontakt</title>
+   </head>
+
+   <body>
+
+       <!-- HEADER -->
+
+       <div class="navigation">
+        <ul id="menu">
+            <li> <a href="Webagentur-Star.html"> Startseite </a> </li>
+            <li> <a href="Leistungen.html"> Leistungen </a> </li>
+            <li> <a href="Bildergalerie.html"> Bildergalerie </a> </li>
+            <li> <a href="Teammitglieder.html">Teammitglieder </a> </li>
+            <li> <a href="Werbevideo.html">Werbevideo </a> </li>
+         </ul>  
+     </div>
+
+    <!-- MAIN PAGE -->
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div> 
+
+    </body>
+</html> 
